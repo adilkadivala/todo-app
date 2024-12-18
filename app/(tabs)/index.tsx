@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 
+
 export default function HomeScreen() {
   return (
     <View style={style.container}>
@@ -25,5 +26,7 @@ const style = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
   },
-  items: {},
+  items: {
+
+  },
 });
