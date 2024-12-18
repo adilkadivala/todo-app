@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-export const Task = () => {
+const Task = () => {
   return (
     <View>
       <Text>This is a task</Text>
@@ -9,7 +9,6 @@ export const Task = () => {
   );
 };
 
+const style = StyleSheet.create({});
 
-const style = StyleSheet.create({
-    
-})
+export default Task;
