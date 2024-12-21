@@ -7,6 +7,12 @@ export default function HomeScreen() {
       {/* todos */}
       <View style={style.taskWrapper}>
         <Text style={style.items}>Today's Task</Text>
+        <View>
+          <Task text={"task one"} />
+          <Task text={"task two"} />
+          <Task text={"task three"} />
+          <Task text={"task four"} />
+        </View>
       </View>
       {/* todos */}
     </View>
@@ -16,7 +22,7 @@ export default function HomeScreen() {
 const style = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#e8eaed",
   },
   taskWrapper: {
     paddingTop: 80,
@@ -26,5 +32,7 @@ const style = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
   },
-  items: {},
+  items: {
+    marginTop: 30,
+  },
 });
